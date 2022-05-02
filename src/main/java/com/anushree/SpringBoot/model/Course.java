@@ -31,6 +31,7 @@ public class Course {
 
     @NotNull(message = "completed cannot be null")
     private Boolean completed;
+
     private Date updatedAt;
 
 }
